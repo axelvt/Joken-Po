@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #423838 0%, #281915 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.scoreboard {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.option {
+    background: #424442;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.option:hover {
+    background: #060e06;
+}
+
+.result {
+    font-size: 18px;
+    color: #333;
+}
+
+#result-text {
+    margin-top: 20px;
+}
